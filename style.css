@@ -1,0 +1,494 @@
+/* MAIN */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bai Jamjuree', sans-serif;
+  }
+  html, body {
+    width: 100%;
+    height: 100%;
+    font-size: 18px;
+  }
+  body{
+    background-image: url("bg-header-mobile.png");
+    background-position: top;
+    background-size: 100% 50%;
+    background-repeat: no-repeat;
+  }
+
+  a{
+    text-decoration: none;
+  }
+
+  .attribution{
+    position: relative;
+    text-align: center;
+    top: 12em;
+  }
+
+  .card {
+    position: relative;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 350px;
+  }
+
+
+
+  /* CARDS */
+.first-card {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin-top: 8em;
+}
+.second-card {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin-top: 15em;
+}
+.third-card {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin-top: 5em;
+}
+.fourth-card {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin-top: 5em;
+}
+.fifth-card {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin-top: 5em;
+}
+.sixth-card {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin-top: 5em;
+}
+.seventh-card {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin-top: 15em;
+}
+.eighth-card {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin-top: 5em;
+}
+.ninth-card {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin-top: 5em;
+}
+.tenth-card{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin-top: 7em;
+}
+.eleventh-card{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin-top: 5em;
+}
+.twelfth-card{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin-top: 5em;
+}
+.sponsors{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 100%;
+  margin-top: 7em;
+}
+.eighteenth-card{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin-top: 10em;
+}
+.footer-card{
+  position: relative;
+  margin-top: 12em;
+  width: 100%;
+  height: 500px;
+  background-color: hsla(202, 11%, 66%, 0.2);
+}
+
+
+
+/* CARD 1 */
+  .logo{
+    position: relative;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 3em;
+  }
+  .title{
+    position: relative;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    font-weight: 600;
+    font-size: 27px;
+    color: hsl(210, 10%, 33%);
+  }
+   .card-description-text{
+    position: relative;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    top: 1em;
+    width: 99%;    
+    font-weight: 400;
+    font-size: 18px;
+    opacity: 0.6;
+  }
+
+
+
+  /* CARD 2 */
+  .card2-description-text{
+    position: relative;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    top: 1em;
+    width: 99%;    
+    font-weight: 400;
+    font-size: 18px;
+    opacity: 0.6;
+  }
+
+
+  /* FOOTER */
+  .actions{
+    position: relative;
+    text-align: center;
+    top: 5em;
+  }
+  .faq{
+    position: relative;
+  }
+  .contact{
+    position: relative;
+    top: 1em;
+  }
+  .pp{
+    position: relative;
+    top: 2em;
+  }
+  .kit{
+    position: relative;
+    top: 3em;
+  }
+  .guide{
+    position: relative;
+    top: 4em;
+  }
+  .social-btns{
+    position: relative;
+    display: block;
+    text-align: center;
+    top: 10em;
+  }
+
+
+
+  /* BUTTONS */
+  .buttons{
+    position: relative;
+    text-align: center;
+    top: 3em;
+  }
+  .dl-btn1{
+    position: relative;
+    top: 1em;
+    border-radius: 25px;
+    padding: 15px 100px;
+    background-color: hsl(171, 66%, 44%);
+    color: white;
+    font-weight: 600;
+    letter-spacing: 1px;
+  }
+  .dl-btn2{
+    position: relative;
+    top: 2em;
+    border-radius: 25px;
+    padding: 15px 100px;
+    background-color: hsl(233, 100%, 69%);
+    color: white;
+    font-weight: 600;
+    letter-spacing: 1px;
+  }
+  .cardf-btnfb{
+    position: relative;
+    top: 1.5em;
+    right: 3em;
+  }
+  .cardf-btnig{
+    position: relative;
+    top: -1.5em;
+    left: 3em;
+  }
+  #b{
+    transition-duration: 0.12s;
+    outline: none;
+    border: none;
+  }
+  #b:hover{
+    background-color: hsla(0, 42%, 24%, 0.432);
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+  #b:active {
+    transform: translateY(3px);
+  }
+
+
+
+  /* IMAGES */
+  .card3-img{
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 330px;
+    height: 250px;
+  }
+  .card8-img{
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 350px;
+    height: 220px;
+  }
+  .wf-img{
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2em;
+    width: 50px;
+    height: 40px;
+  }
+  .sponsors-img{
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 4em;
+    width: 130px;
+    height: 40px;
+  }
+  .footer-logo-img{
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    top: 3em;
+    width: 50px;
+  }
+
+
+  @media screen and (min-width: 1400px) {
+    body{
+      background-image: url("bg-header-desktop.png");
+      background-size: 100% 40%;
+    }
+
+    .second-card {
+      margin-top: 10em;
+    }
+
+    .eighth-card {
+      position: relative;
+      top: -30em;
+      right: 12em;
+    }
+
+    .ninth-card {
+      top: -35em;
+    }
+
+    .wf-cards{
+      position: relative;
+      top: -50em;
+    }
+    .tenth-card{
+      top: 15em;
+      right: 23em;
+    }
+    .twelfth-card{
+      top: -13.5em;
+      right: -23em;
+    }
+    #wf-text{
+      width: 110%;
+      left: -1em;
+
+    }
+
+    .card-title-text{
+      position: relative;
+      width: 180%;
+      right: 4em;
+    }
+     .card-description-text{
+      position: relative;
+      right: 8em;
+      width: 190%;   
+    }
+
+    .dl-btn1{
+      position: relative;
+      right: 7em;
+      padding: 15px 30px;
+    }
+    .dl-btn2{
+      position: relative;
+      top: -2.5em;
+      left: 9em;
+      padding: 15px 30px;
+    }
+
+    .card3-img{
+      position: relative;
+      display: inline-block;
+      right: 35em;
+      width: 800px;
+      height: 630px;
+    }
+
+    .fourth-card {
+      position: relative;
+      display: inline-block;
+      top: -36em;
+      text-align: left;
+    }
+    .fifth-card {
+      position: relative;
+      display: inline-block;
+      top: -36em;
+      text-align: left;
+    }
+    .sixth-card {
+      position: relative;
+      display: inline-block;
+      top: -36em;
+      text-align: left;
+    }
+    #inline{
+      position: relative;
+      text-align: left;
+      left: 15em;
+      width: 380px;
+    }
+    #inline-t{
+      position: relative;
+      text-align: left;
+      left: 8.7em;
+      width: 380px;
+    }
+
+    .seventh-card {
+      top: -36em;
+    }
+
+    .card8-img{
+      position: relative;
+      width: 800px;
+      height: 500px;
+      top: -5em;
+    }
+
+    .sponsors-img{
+      top: -70em;
+    }
+    #google{
+      position: relative;
+      top: -57.5em;
+      right: 30em;
+    }
+    #vg{
+      position: relative;
+      top: -82.5em;
+      left: 30em;
+    }
+    #ibm{
+      position: relative;
+      top: -63.5em;
+      right: 15em;
+    }
+    #hp{
+      position: relative;
+      top: -76em;
+      left: 15em;
+    }
+
+    .eighteenth-card{
+      top: -80em;
+    }
+
+    .footer-card{
+      position: relative;
+      top: -80em;
+      width: 100%;
+      height: 150px;
+    }
+    .footer-logo-img{
+      top: 3em;
+      right: 30em;
+      width: 50px;
+    }
+    .actions{
+      top: 0;
+    }
+    .faq{
+      right: 15em;
+    }
+    .contact{
+      right: 15em;
+    }
+    .pp{
+      top: -2.6em;
+      right: 5em;
+    }
+    .kit{
+      top: -1.6em;
+      right: 5em;
+    }
+    .guide{
+      top: -5.2em;
+      right: -5em;
+    }
+    .social-btns{
+      top: -6.7em;
+      right: -30em;
+    }
+    
+    .attribution{
+      top: 0;
+    }
+  }
